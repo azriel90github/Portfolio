@@ -1,34 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <main>
+      <h2>Olá, Seja Bem Vindo(a)!</h2>
+      <h1 className='text-degrade'>Sou o Suélio Armando</h1>
+      <h3>eXtreme Programming <span>JS</span> and <small>Go</small></h3>
+      <p>
+        Possui
+        habilidades em Golang e
+        JavaScript com foco em React e Node.js,
+        Figma, bancos de dados
+        relacionais e não relacionais.
+        Habilidade em
+        ciclo de
+        desenvolvimento de software,
+        desde o design até a
+        implantação.
       </p>
-    </>
+      <div className="button">
+        
+      </div>
+    </main>
   )
 }
 
