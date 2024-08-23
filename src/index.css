@@ -1,82 +1,11 @@
-@font-face {
-  font-family: Rethink;
-  src: url(../public/font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
-}
-:root {
-  --cor01: #01111E;
-  --cor02: #0767AC;
-  --cor03: #007D9C;
-  --cor04: #01A4D7;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 * {
   margin: 0;
   padding: 0;
 }
-
-main {
-  color: white;
-}
-
-body {
-  font-family: Rethink;
-  background: var(--cor01);
-}
-
-h2 {
-  color: var(--cor04);
-  font-size: 1.5rem;
-  margin-bottom: .8rem;
-  font-weight: 300;
-}
-
-h1 {
-  font-size: 4rem;
-  font-weight: 450;
-}
-
-.text-degrade {
-  background-image: linear-gradient(to right, #0767AC, #18d3fd);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-h3 span {
-  color: yellow;
-}
-
-h3 small {
-  color: #08667E;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  text-align: center;
-  width: 400px;
-  line-height: 1.8rem;
-}
-
-h3 {
-  font-size: 2.2rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  color: #0767AC;
-}
-
-main {
-  background-image: url(../public/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh; 
-}
-
-
-
 
 
